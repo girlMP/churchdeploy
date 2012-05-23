@@ -224,6 +224,10 @@
 					</div>
 				</xsl:for-each>
 				<div class="span3">
+					<h4>Main services</h4>
+					<p>Saturday at 6:00 pm<br />
+					Sunday at 8:30 and 11:00 am<br />
+					Wednesday at 7:00 pm</p>
 					<h4>Online Giving</h4>
 					<p>Athey Creek Christian Fellowship is supported solely through those who call Athey Creek their church home.</p>
 					<p><a href="#" class="btn btn-primary give">Give →</a></p>
@@ -253,7 +257,7 @@
 						<xsl:text>. </xsl:text>
 						<a href="{$root}"><xsl:value-of select="$website-name" /></a>
 						<xsl:text>. All rights reserved.</xsl:text>
-					<a href="http://www.facebook.com/groups/AtheyCreek" class="pull-right facebook">Visit us on Facebook</a>				
+					<a href="https://www.facebook.com/pages/Athey-Creek-Christian-Fellowship/138279749547289" class="pull-right facebook">Visit us on Facebook</a>				
 					</div>
 				</div>
 			</div>
@@ -309,7 +313,11 @@
 		}(window));
 		//</xsl:comment>
 	</script>
+<<<<<<< Updated upstream
 	
+=======
+
+>>>>>>> Stashed changes
 <!-- 
 	<script type="text/javascript" src="{$workspace}/js/plugins.min.js"></script>
 	<script type="text/javascript" src="http://use.typekit.com/tix6unz.js"></script>
